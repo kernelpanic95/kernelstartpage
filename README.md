@@ -1,5 +1,7 @@
 # cybersearch <!-- omit in toc --> 
 
+![cybersearch](image.gif)
+
 ## Table of Contents <!-- omit in toc --> 
 - [Installation](#installation)
 	- [Materials](#materials)
