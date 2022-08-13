@@ -1,12 +1,5 @@
-# Startpage <!-- omit in toc --> 
+# cybersearch <!-- omit in toc --> 
 
-[Live preview (no weather as to not leak API key)](https://startpage.easun.me)
-
-
-![startpage](preview.gif)
-
-
-<!-- [Live Preview](https://kencx.github.io/startpage/) -->
 ## Table of Contents <!-- omit in toc --> 
 - [Installation](#installation)
 	- [Materials](#materials)
