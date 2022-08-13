@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
-    <title>~/startpage</title>
+    <title>~/cybersearch</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- google fonts -->
@@ -18,14 +18,14 @@
 <body>
     <header>
         <div id="img">
-            <img src="image.gif" />
+            <a href="https://cyberspace.net"><img src="image.gif" /></a>
         </div>
     </header>
 
     <main>
         <div id="content">
             <div id="head">
-                <form action="https://duckduckgo.com/">
+                <form action="https://google.com/search">
                     <label for="q" autofocus>> find / </label>
                     <input type="text" name="q" autocomplete="off">
                 </form>
@@ -71,7 +71,7 @@
         </div>
     </main>
     <footer>
-        <a href="https://github.com/eaaasun/startpage">Github</a>
+        <a href="https://github.com/kernelpanic95/cybersearch">Github</a>
     </footer>
     <script type="module">
         // ----- CHANGE THESE VARIABLES
@@ -82,10 +82,10 @@
         const animated = true;
 
         // Read the documentation for setting the weather API key
-        const apiKey = "[API KEY]";
-        const lat = 40.7127861;
-        const lon = -74.0134275;
-        const units = "imperial";
+        const apiKey = "37340fffd70c74e7251b4bd05ef978db";
+        const lat = 40.6583;
+        const lon = 17.7065;
+        const units = "metric";
 
         // ----- DON'T TOUCH ANYTHING BELOW THIS UNLESS YOU KNOW WHAT YOU'RE DOING
 
@@ -132,7 +132,8 @@
                     var weatherDesc = data.weather[0].description;
                     weatherEl.innerHTML =
                         weatherDesc + " in " + city;
-                    tempEl.innerHTML = "h: " + hiTemp + "° / c: " + temp + "° / l: " + loTemp + "°";
+                    //tempEl.innerHTML = "h: " + hiTemp + "° / c: " + temp + "° / l: " + loTemp + "°";
+                    tempEl.innerHTML = "temp: " + temp + "°";
                 }
             });
         } else {
