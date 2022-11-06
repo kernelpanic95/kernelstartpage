@@ -13,7 +13,7 @@
 
 * {
   box-sizing: border-box;
-  text-transform: lowercase;
+  /* text-transform: lowercase;*/
 }
 
 html,
@@ -46,6 +46,7 @@ header div#img {
 header div#img img {
   width: 25vw;
 }
+
 
 main {
   display: flex;
