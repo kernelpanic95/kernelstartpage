@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro);
+@import url(https://fonts.googleapis.com/css2?family=JetBrains Mono);
 
 :root {
   --color-bg: #19171a;
@@ -8,7 +8,7 @@
   --color-link-hover: #8fbcbb;
   --color-link: #81a1c1;
 
-  --font-family: "Source Code Pro", monospace;
+  --font-family: "JetBrains Mono", monospace;
 }
 
 * {
