@@ -1,14 +1,14 @@
-@import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono);
+@import url(https://fonts.googleapis.com/css2?family=Victor+Mono);
 
 :root {
-  --color-bg: #19171a;
+  --color-bg: #000000;
   --color-bg-light: #201e21;
   --color-fg: #d8dee9;
 
-  --color-link-hover: #5c53d4;
-  --color-link: #ffffff;
+  --color-link-hover: #dc143c;
+  --color-link: #f6bd60;
 
-  --font-family: "JetBrains Mono", monospace;
+  --font-family: "Victor Mono", monospace;
 }
 
 * {
@@ -98,6 +98,7 @@ form input {
   padding: 10px;
   color: var(--color-fg);
   font-family: var(--font-family);
+  color: var(--color-link);
   font-size: 2vw;
   border-radius: 8px;
 }
