@@ -2,28 +2,11 @@
 
 ![cybersearch](image.gif)
 
-## Table of Contents <!-- omit in toc --> 
-- [Installation](#installation)
-	- [Materials](#materials)
-	- [Instructions](#instructions)
-		- [Basic Setup](#basic-setup)
-		- [Getting an OpenWeatherMap API Key](#getting-an-openweathermap-api-key)
-		- [Changing the search engine](#changing-the-search-engine)
-		- [Using as a new tab/disabling animations](#using-as-a-new-tabdisabling-animations)
-- [Browser setup](#browser-setup)
-- [Misc. Info](#misc-info)
-## Installation
-
-### Materials
-- Code editor (e.g. VSCode, Notepad++, etc.)
-- Basic html/css/js knowledge (optional, but recommended)
-- OpenWeatherMap API Key (only if you want to use the weather feature)
-
 ### Instructions
 
 #### Basic Setup
 
-1. Grab the latest [release](https://github.com/eaaasun/startpage/releases/latest)
+1. Download files
 2. Unzip files and move to a convenient location (e.g. Documents)
 3. Go into your browser settings (Firefox: `about:preferences`, Chrome/chromium-based: `chrome://settings/`)
 4. Set the homepage to `file:///[PATH TO STARTPAGE]/index.html` (example: `file:///D:/documents/startpage/index.html`)
@@ -64,16 +47,3 @@ Use as a new tab (only step 3 to disable animations):
 3. Open `newTab.html` file in your code editor of choice.
    1. In the `<script>` tag, change the `animated` variable to `false`.
 4. In the extension settings, set the new tab page to `file:///[PATH TO STARTPAGE]/newTab.html` (example: `file:///D:/documents/startpage/newTab.html`)
-
-
-## Browser setup
-- Browser: Firefox
-- Theme: [Nord - Firefox Theme](https://www.deviantart.com/dpcdpc11/art/Nord-for-Firefox-837860916)
-- Font: Product Sans
-- Wallpaper: You can't have it
-
-## Misc. Info
-- Startpage Font: Source Code Pro
-- Cat Gif: [Here](https://twitter.com/avogado6/status/1165595520967954432?s=19)
-
-
